@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeTrade - C2C Marketplace</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; }
+        .navbar { background-color: #ffffff; border-bottom: 2px solid #d1fae5; }
+    </style>
+</head>
+<body>
+
+    <!-- TOP NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light py-3 shadow-sm">
+        <div class="container">
+            
+            <!-- SAFETRADE LOGO -->
+            <a class="navbar-brand" href="index.html">
+                <div class="brand-logo" style="display: flex; align-items: center; font-family: 'Arial', sans-serif; font-weight: 900; user-select: none;">
+                    <div style="background-color: #d1fae5; padding: 5px 10px; border-radius: 8px; margin-right: 10px; letter-spacing: -2px; font-size: 1.8rem; line-height: 1;">
+                        <span style="color: #10b981;">S</span><span style="color: #047857;">T</span>
+                    </div>
+                    <div style="font-size: 1.4rem; font-weight: 800; color: #333; letter-spacing: -0.5px;">
+                        Safe<span style="color: #10b981;">Trade</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Search Bar -->
+                <form class="d-flex mx-auto w-50 my-2 my-lg-0">
+                    <input class="form-control me-2" type="search" placeholder="Search for listings..." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+                <!-- Right Side Buttons -->
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-dark" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-success" style="background-color: #10b981; border: none;" href="register.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN PAGE CONTENT (We will add the products here next) -->
+    <div class="container mt-5">
+        <h2 class="mb-4">Recent Listings</h2>
+        <p class="text-muted">The product grid will go here...</p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
