@@ -1,7 +1,7 @@
 # SafeTrade – C2C Marketplace
 
-**Live app:** https://fpl-assistant-goat.streamlit.app
 A consumer-to-consumer marketplace built with PHP, MySQL (PDO) and Bootstrap 5 for my Eduvos ITECA project.
+**Live app:** (https://safetrademarket.fwh.is/?i=1)
 
 ## Features
 - Register / login with sessions and a 30-minute inactivity timeout
